@@ -1,5 +1,5 @@
 {
-  "name": "@uri-test-org/scheduler",
+  "name": "untest-scheduler",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Uri Berman <UriEzequiel.Kleiner@varian.com>",
@@ -19,5 +19,6 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "tsc": "tsc"
-  }
+  },
+  "gitHead": "8c8d73e6c062c14e35b9e0dae7ecbf722ab73e25"
 }
