@@ -1,0 +1,29 @@
+{
+  "name": "test-lerna-sub",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "Uri Berman <UriEzequiel.Kleiner@varian.com>",
+  "homepage": "https://github.com/Urik/lerna-test#readme",
+  "license": "ISC",
+  "main": "lib/test-lerna-sub.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urik/lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Urik/lerna-test/issues"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "test-lerna",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "Uri Berman <UriEzequiel.Kleiner@varian.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/test-lerna.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "test-lerna-sub": "^1.0.1"
+  }
+}
