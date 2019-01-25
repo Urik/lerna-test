@@ -1,5 +1,5 @@
 {
-  "name": "test-lerna",
+  "name": "@uri-lerna/test-lerna",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Uri Berman <UriEzequiel.Kleiner@varian.com>",
@@ -20,6 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "test-lerna-sub": "^1.0.1"
-  }
+    "@uri-lerna/test-lerna-sub": "^1.0.1"
+  },
+  "gitHead": "098ab1c246d87ad27f6a285faa6cc29390493a4e"
 }
