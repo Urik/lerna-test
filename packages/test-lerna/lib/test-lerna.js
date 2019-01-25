@@ -4,6 +4,7 @@ module.exports = testLerna;
 
 function testLerna() {
     myPackage();
+    console.log('TEST');
 }
 
 testLerna();
