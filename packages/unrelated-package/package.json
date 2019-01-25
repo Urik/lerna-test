@@ -1,6 +1,6 @@
 {
   "name": "@uri-lerna/unrelated-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Uri Berman <UriEzequiel.Kleiner@varian.com>",
   "homepage": "https://github.com/Urik/lerna-test#readme",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/Urik/lerna-test/issues"
-  }
+  },
+  "gitHead": "2c8a1982ca1a42079ca9854c358dcf4ab076e07a"
 }
